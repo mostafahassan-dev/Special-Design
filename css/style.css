@@ -30,7 +30,7 @@ body{
     top: 0;
     background-color:#fff;
     width: 200px;
-    z-index: 100;
+    z-index: 10000;
     min-height: 100vh;
     transition: 0.3s;
     border: 1px solid #eee;
@@ -499,7 +499,7 @@ body{
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: 1000;
+    z-index: 10000;
     display: flex;
     align-items: center;
     justify-content: center;
