@@ -2,7 +2,7 @@ let mainColor = localStorage.getItem("color");
 let lis = document.querySelectorAll(".colors-list li");
 
 if (mainColor !== null) {
-  // console.log(mainColor)
+ 
   document.documentElement.style.setProperty("--main--color", mainColor);
 
   lis.forEach((li) => {
